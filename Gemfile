@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 #gem 'therubyracer', :platforms => :ruby
 
 gem 'rails',  '3.2.8'
-gem 'sqlite3', '1.3.3'
+gem 'sqlite3', '1.3.5'
 
 group :development do
   gem 'rspec-rails'
