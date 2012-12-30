@@ -6,15 +6,20 @@ source 'https://rubygems.org'
 #gem 'therubyracer', :platforms => :ruby
 
 gem 'rails',  '3.2.8'
-gem 'sqlite3', '1.3.5'
+
 
 group :development do
   gem 'rspec-rails'
+  gem 'sqlite3'
 end
 
 group :test do
   gem 'rspec-rails'
   gem 'webrat'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
